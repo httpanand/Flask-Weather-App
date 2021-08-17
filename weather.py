@@ -9,7 +9,7 @@ def tocelcius(temp):
 
 @app.route('/',methods=['POST','GET'])
 def weather():
-    api_key = '48a90ac42caa09f90dcaeee4096b9e53'
+    api_key = 'your api key'
     if request.method == 'POST':
         city = request.form['city']
     else:
